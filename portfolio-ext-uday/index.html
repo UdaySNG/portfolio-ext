@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/dfe65f3da9.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
+          
+    <title>Uday Portfolio</title>
+    <link rel="stylesheet" href="/css/style.css">
+    <script src="/main.js" defer></script>
+</head>
+<body>
+    <header class="header">
+        <h1 class="header__title">Uday Singh</h1>
+        <div class="header__social-icons">
+            <a href="https://www.linkedin.com/in/uday-singh-8a5093252/" target="_blank" class="social-icon">
+                <i class="fab fa-linkedin"></i>
+            </a>
+            <a href="mailto:voorbeeld@email.com" class="social-icon">
+                <i class="fas fa-envelope"></i>
+            </a>
+            <a href="https://github.com/Uday-Singh1" target="_blank" class="social-icon">
+                <i class="fab fa-github"></i>
+            </a>
+        </div>
+        <button class="header__button header__button--projects">Mijn Projecten</button>
+        <button class="header__button header__button--about">Over Mij</button>
+        <button class="header__button header__button--contact">Contact</button>
+        <button class="header__button header__button--language" id="language-toggle">Taal</button>
+    </header>
+    
+    <main class="main">
+
+
+        <section class="section section--typing">
+            <div class="typing">
+                <h2 class="typing__text" id="typed__text"></h2>
+            </div>
+        </section>
+        
+        
+
+        
+
+    <section class="section section--projects">
+
+        <article class="project">
+            <img src="/img/youtube-dark2.png" alt="Project 1" class="project__image">
+            <div class="project__info">
+                <h2 class="project__title">
+                    Yubtub
+                    <a href="https://github.com/Uday-Singh1/Yubtub-frontend-m8" target="_blank" class="github-icon">
+                        <i class="fab fa-github"></i>
+                    </a>
+                </h2>
+                <p class="project__description">Hier had ik een youtube clone gemaakt met de huiststyle van de Twitch streaming platform.</p>
+            </div>
+        </article>
+
+        <div class="popup-overlay"></div>
+        <div class="popup" id="project-1-popup">
+            <div class="popup__content">
+                <img class="popup__image__size" src="/img/youtube-dark.webp" alt="Project 1">
+                <h2 class="popup__title">Yubtub</h2>
+                <p class="popup__description__youtube">Hier had ik een YouTube-kloon gemaakt met de huisstijl van het Twitch-streamingplatform.</p>
+                <div class="popup__languages">
+                    <span class="popup__language-icon"><i class="fab fa-html5"></i></span>
+                    <span class="popup__language-icon"><i class="fab fa-css3"></i></span>
+                    <span class="popup__language-icon"><i class="fab fa-sass"></i></span>
+                    <span class="popup__language-icon"><i class="fab fa-js"></i></span>
+                </div>
+                <a href="https://github.com/Uday-Singh1/Yubtub-frontend-m8" target="_blank" class="popup__button">Bekijk de broncode</a>
+                <button class="popup__close-button"></button>
+            </div>
+        </div>
+        
+    
+        <article class="project">
+            <img src="/img/udemy.webp" alt="Project 2" class="project__image">
+            <div class="project__info">
+                <h2 class="project__title">Udemy-Clone
+                    <a href="https://github.com/Uday-Singh1/Yubtub-frontend-m8" target="_blank" class="github-icon">
+                        <i class="fab fa-github"></i>
+                    </a>
+                </h2>
+                <p class="project__description" id="js--language-desc-1">In dit project had ik de voorpagina van populaire cursus website Udemy nagemaakt in html&css en js.</p>
+            </div>
+        </article>
+
+        <div class="popup-overlay"></div>
+        <div class="popup" id="project-2-popup">
+            <div class="popup__content">
+                <img class="popup__image__size" src="/img/udemy.webp" alt="Project 1">
+                <h2 class="popup__title">Udemy</h2>
+                <p class="popup__description__youtube">In dit project had ik de voorpagina van populaire cursus website Udemy nagemaakt in html&css en js.</p>
+                <div class="popup__languages">
+                    <span class="popup__language-icon"><i class="fab fa-html5"></i></span>
+                    <span class="popup__language-icon"><i class="fab fa-css3"></i></span>
+                    <span class="popup__language-icon"><i class="fab fa-sass"></i></span>
+                    <span class="popup__language-icon"><i class="fab fa-js"></i></span>
+                </div>
+                <a href="https://github.com/Uday-Singh1/Yubtub-frontend-m8" target="_blank" class="popup__button">Bekijk de broncode</a>
+                <button class="popup__close-button"></button>
+            </div>
+        </div>
+    
+        <article class="project">
+            <img src="/img/colorpick.webp" alt="Project 3" class="project__image">
+            <div class="project__info">
+                <h2 class="project__title">
+                    ColorPicker
+                    <a href="https://github.com/Uday-Singh1/Colorpicker" target="_blank" class="github-icon">
+                        <i class="fab fa-github"></i>
+                    </a>
+                </h2>
+                <p class="project__description"  id="js--language-desc-2">Hier nam ik inspiratie van mijn favoriete kleuren website, Colorhunt dus ik had mijn eigen colorpicker gemaakt.</p>
+            </div>
+        </article>
+
+
+        <div class="popup-overlay"></div>
+        <div class="popup" id="project-3-popup">
+            <div class="popup__content">
+                <img class="popup__image__size" src="/img/colorpick.webp" alt="Project 1">
+                <h2 class="popup__title">ColorPicker</h2>
+                <p class="popup__description__youtube">Hier nam ik inspiratie van mijn favoriete kleuren website, Colorhunt dus ik had mijn eigen colorpicker gemaakt.</p>
+                <div class="popup__languages">
+                    <span class="popup__language-icon"><i class="fab fa-html5"></i></span>
+                    <span class="popup__language-icon"><i class="fab fa-css3"></i></span>
+                    <span class="popup__language-icon"><i class="fab fa-sass"></i></span>
+                    <span class="popup__language-icon"><i class="fab fa-js"></i></span>
+                </div>
+                <a href="https://github.com/Uday-Singh1/Yubtub-frontend-m8" target="_blank" class="popup__button">Bekijk de broncode</a>
+                <button class="popup__close-button"></button>
+            </div>
+        </div>
+        <!-- Voeg meer projecten toe zoals hierboven -->
+        <button class="view-more">Bekijk Meer</button>
+    </section>
+    
+    
+
+    <section class="section section--about">
+        <div class="about">
+            <img src="/img/uday-pfp.jpg" alt="Jouw profielfoto" class="about__image">
+            <h2 class="about__title">Over Mij</h2>
+            <p class="about__description">
+                Ik ben een gepassioneerde softwareontwikkelaar. Mijn expertise omvat HTML, CSS, JavaScript en andere moderne webtechnologieën.
+            </p>
+        </div>
+       
+    </section>
+    
+    
+    
+    <section class="section section--featured-project">
+        <article class="featured-project">
+            <div class="featured-project__content">
+                <img src="/img/colorpick.webp" alt="Project Afbeelding" class="featured-project__image">
+                <div class="featured-project__info">
+                    <h2 class="featured-project__title">Featured Project</h2>
+                    <p class="featured-project__description">
+                        Dit is een geweldig project waar ik aan heb gewerkt. Het toont mijn vaardigheden op het gebied van webontwikkeling en design.
+                    </p>
+                    <a href="https://github.com/Uday-Singh1/Colorpicker" class="featured-project__button" target="_blank">Bekijk de broncode</a>
+                </div>
+            </div>
+        </article>
+    </section>
+    
+    
+    
+
+
+
+
+    <section class="section section--skills">
+        <article class="skill-card">
+            <h3 class="skill-card__title">HTML</h3>
+            <i class="fa-brands fa-html5  skill-card__icon"></i>
+            <p class="skill-card__description">Ik ben instaat om Semantische html code te schrijven en de codes goed te structuren voor een overzichtelijkere ervaring.</p>
+        </article>
+    
+        <article class="skill-card">
+            <h3 class="skill-card__title">CSS</h3>
+            <i class="fab fa-css3 skill-card__icon"></i>
+            <p class="skill-card__description">Ik ben heel erg fan van design dus ik kan me goed vinden in css,om niet alleen mooie elementen te maken maar ook mooie animaties. </p>
+        </article>
+    
+        <article class="skill-card">
+            <h3 class="skill-card__title">SCSS</h3>
+            <i class="fa-brands fa-sass  skill-card__icon"></i>
+            <p class="skill-card__description">Scss heeft me geleerd hoe ik mijn css kan verdelen en dus ook gecategoriseerd kan gaan werken aan mijn projecten.</p>
+        </article>
+    
+        <article class="skill-card">
+            <h3 class="skill-card__title">JavaScript</h3>
+            <i class="fa-brands fa-js  skill-card__icon"></i>
+            <p class="skill-card__description">Ik vind javascript heel interresant, vooral wegens de ontelbare mogelijkheden dat het bied, het neemmt je project echt op een hele andere niveau en het is ook echt een uitdaging soms wat ik dus fijn vind.</p>
+        </article>
+    
+        <article class="skill-card">
+            <h3 class="skill-card__title">Adobe XD</h3>
+            <i class="devicon-xd-plain  skill-card__icon"></i>
+            <p class="skill-card__description">Ik ben heel erg fan van designing, ik probeer alles altijd zo uniek mogelijk te maken dat het dus ook echt mijn personaliteit uitstraalt, uiteraard kan ik goed werken als er eisen zijn aan het design wat betreft opmaak.</p>
+        </article>
+    
+        <article class="skill-card">
+            <h3 class="skill-card__title">After Effects</h3>
+            <i class="devicon-aftereffects-plain  skill-card__icon"></i>    
+            <p class="skill-card__description">In mijn vrije tijd naast het programmeren ben ik ook vaak bezig met video/foto editing voornamelijk met Adobe After Effects en Premiere Pro, ik vind het heel erg leuk om ook dat soort projecten te maken.</p>
+        </article>
+    </section>
+    
+    
+    
+    <section class="section section--contact">
+     
+        <form class="contact-form">
+            <h2 class="contact-form__title">Neem Contact Op</h2>
+            <label for="naam" class="contact-form__label">Naam:</label>
+            <input type="text" id="naam" name="naam" class="contact-form__input" required>
+    
+            <label for="email" class="contact-form__label">E-mail:</label>
+            <input type="email" id="email" name="email" class="contact-form__input" required>
+    
+            <label for="bericht" class="contact-form__label">Bericht:</label>
+            <textarea id="bericht" name="bericht" rows="4" class="contact-form__textarea" required></textarea>
+    
+            <button type="submit" class="contact-form__button">Verzenden</button>
+        </form>
+    </section>
+    
+    <button id="scroll-to-top" class="scroll-to-top">↑</button>
+
+</main>
+    
+    <footer class="footer">
+        <div class="social-icons">
+            <a href="https://www.linkedin.com/in/jouw-linkedin" target="_blank" class="social-icon">
+                <i class="fab fa-linkedin"></i>
+            </a>
+            <a href="mailto:voorbeeld@email.com" class="social-icon">
+                <i class="fas fa-envelope"></i>
+            </a>
+            <a href="https://github.com/jouw-gebruikersnaam" target="_blank" class="social-icon">
+                <i class="fab fa-github"></i>
+            </a>
+        </div>
+  
+    </footer>
+    
+    
+</body>
+</html>
